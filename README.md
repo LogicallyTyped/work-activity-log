@@ -21,7 +21,7 @@ or preview an entry locally:
 ```bash
 git clone https://github.com/LogicallyTyped/work-activity-log.git
 cd work-activity-log
-cp template/weekly-template.md log/2026/2026-W01.md
+mkdir -p log/2026 && cp template/weekly-template.md log/2026/2026-W01.md
 # fill in the template, then commit
 ```
 
